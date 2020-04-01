@@ -6,6 +6,16 @@ body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+
 #header {
   background-color: #f8765e;
   color: #ffffff;
@@ -14,7 +24,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0 10%;
+  margin: 0 8.7%;
 }
  
 #logo {
@@ -31,7 +41,7 @@ nav {
 #header li {
   list-style: none;
   display: inline;
-  margin-right: 3%;
+  margin-left: 3%;
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
@@ -43,4 +53,10 @@ nav {
 #header ul {
   width: 40%;
   text-align: right;
+}
+
+#hero-content {
+  display: flex;
+  margin-top: 140px;
+  margin-left: 8.7%;
 }
