@@ -1,0 +1,28 @@
+#container {
+  background-color: purple;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50vh;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+#container div {
+  background-color: mediumorchid;
+  margin: 10px;
+  flex-basis: 100px;
+}
+.flex-item {
+  order: 2;
+}
+
+.big {
+  height: 80px;
+  padding: 20px;
+  order: 1;
+}
+.highest {
+  order: 9;
+}
