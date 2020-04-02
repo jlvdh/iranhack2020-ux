@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+#container {
+  background-color: yellow;
+  width: 75%;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+#box {
+  width: 100%;
+  padding: 10px;
+  border: 5px solid orange;
+  background-color: bisque;
+  box-sizing: border-box;
+}
+
+#card-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#card-items div {
+  background-color: papayawhip;
+  height: 100px;
+  flex-basis: 150px;
+  margin: 10px;
+}
+
+@media (max-width: 1000px) {
+  #container {
+    background-color: sienna;
+  }
+}
+
+@media (max-width: 456px) {
+  #container {
+    background-color: red;
+    width: 100%;
+  }
+
+  #card-items div {
+    flex-basis: 100%;
+  }
+}
+
