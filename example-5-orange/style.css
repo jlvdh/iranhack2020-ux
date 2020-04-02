@@ -24,7 +24,10 @@ h1 {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0 8.7%;
+  margin: 0 auto;
+  width: 83.4%;
+  max-width: 1200px;
+  border: 1px solid blue;
 }
  
 #logo {
@@ -51,7 +54,7 @@ nav {
 }
 
 #header ul {
-  width: 40%;
+  width: 75%;
   text-align: right;
 }
 
@@ -59,4 +62,16 @@ nav {
   display: flex;
   margin-top: 140px;
   margin-left: 8.7%;
+}
+
+@media (max-width: 473px) {
+
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #logo {
+    justify-content: center;
+  }
 }
